@@ -22,10 +22,10 @@ export const PersonalInfo = {
   phone: "+91 6388923200",
   location: "Varanasi, India",
   socials: {
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
+    github: "https://github.com/Aditya-KIT",
+    linkedin: "https://in.linkedin.com/in/aditya-gupta-14b720246",
     twitter: "https://twitter.com",
-    linktree: "https://linktr.ee/"
+    linktree: "https://linktr.ee/adityaguptakit"
   }
 };
 
