@@ -17,9 +17,9 @@ import product_Logo from '../assets/work_logo/product_management.png';
 import data_reportLogo from '../assets/work_logo/data_report.png';
 
 
-import softwareLogo from '../assets/resume_logo/software_engineer.png';
-import data_scienceLogo from '../assets/resume_logo/data_scientist.png';
-import aiLogo from '../assets/resume_logo/ai_engineer.png';
+import softwareLogo from '../assets/resume_logo/Software_Engineer.png';
+import data_scienceLogo from '../assets/resume_logo/Data_Scientist.png';
+import aiLogo from '../assets/resume_logo/AI_Engineer.png';
 import softwareResumeFile from '../assets/resume_logo/Aditya Software Engineer Resume.pdf';
 import dataResumeFile from '../assets/resume_logo/Aditya Data Resume.pdf';
 import aiResumeFile from '../assets/resume_logo/Aditya AI Resume.pdf';
