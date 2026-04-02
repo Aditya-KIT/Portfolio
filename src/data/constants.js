@@ -12,6 +12,18 @@ import madhuramLogo from '../assets/work_logo/madhuram.png';
 
 import churnLogo from '../assets/work_logo/churn_analysis.png';
 import pdfLogo from '../assets/work_logo/pdf_reader.png';
+import dizi_botLogo from '../assets/work_logo/dizi_chatbot.png';
+import product_Logo from '../assets/work_logo/product_management.png';
+import data_reportLogo from '../assets/work_logo/data_report.png';
+
+
+import softwareLogo from '../assets/resume_logo/software_engineer.png';
+import data_scienceLogo from '../assets/resume_logo/data_scientist.png';
+import aiLogo from '../assets/resume_logo/ai_engineer.png';
+import softwareResumeFile from '../assets/resume_logo/Aditya Software Engineer Resume.pdf';
+import dataResumeFile from '../assets/resume_logo/Aditya Data Resume.pdf';
+import aiResumeFile from '../assets/resume_logo/Aditya AI Resume.pdf';
+
 
 
 export const PersonalInfo = {
@@ -107,19 +119,19 @@ export const Projects = [
     title: "AI PDF Summarizer",
     description: "I developed an AI-powered PDF Reader application using LangChain, Streamlit, and the Gemini LLM. This intelligent system is designed to analyze PDF documents and generate accurate responses based on user queries. By leveraging advanced language models, the application enables efficient information retrieval, making document interaction smarter, faster, and more user-friendly.",
     image: pdfLogo,
-    technologies: ["Langchain", "Streamlit", "Gemini LLM"],
-    liveLink: "#",
+    technologies: ["Langchain", "Streamlit", "Python", "Gemini LLM", "Hugging Face", "Pinecone"],
+    liveLink: "https://github.com/Aditya-KIT/AI-PDF-Reader",
     githubLink: "https://github.com/Aditya-KIT/AI-PDF-Reader"
   },
   {
     id: 2,
     title: "Product Management",
     description: "This project is a product management web application designed to perform full CRUD (Create, Read, Update, Delete) operations efficiently. It is built using modern frontend technologies such as React.js, HTML, CSS, Bootstrap, and JavaScript, along with backend technologies including Java, Spring Boot, REST APIs, and MySQL. The application ensures seamless data management, a responsive user interface, and efficient communication between the frontend and backend systems.",
-    image: "https://images.unsplash.com/photo-1510442650500-9321f5d59daf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: product_Logo,
     category: "Full Stack",
-    technologies: ["React", "CSS Modules", "Node.js"],
-    liveLink: "#",
-    githubLink: "#"
+    technologies: ["React", "HTML", "CSS", "Java", "Spring Boot", "MySQL"],
+    liveLink: "https://github.com/Aditya-KIT/Product-Management",
+    githubLink: "https://github.com/Aditya-KIT/Product-Management"
   },
   {
     id: 3,
@@ -137,9 +149,9 @@ export const Projects = [
     description: "Developed an expense tracker web application designed to monitor and manage daily expenses, allowing users to access and review their financial data anytime. The application was built using HTML, CSS, Bootstrap, and JavaScript for the frontend, along with PHP, MySQL, and REST APIs for backend functionality. It ensures efficient data handling, a user-friendly interface, and seamless performance for real-time expense tracking.",
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     category: "Full Stack",
-    technologies: ["React", "Node.js", "Express", "MongoDB"],
-    liveLink: "#",
-    githubLink: "#"
+    technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+    liveLink: "https://github.com/Aditya-KIT/Expense",
+    githubLink: "https://github.com/Aditya-KIT/Expense"
   },
   {
     id: 5,
@@ -147,19 +159,29 @@ export const Projects = [
     description: "This project focuses on telecom data analysis, with a primary emphasis on customer churn analysis. It involves the use of tools and technologies such as MS Excel, MySQL, Power BI, and Python, along with libraries like NumPy, Pandas, Matplotlib, and Scikit-learn. Through this project, I developed an interactive and dynamic dashboard to visualize key insights. Additionally, machine learning techniques were implemented to predict customer churn, enabling data-driven decision-making and strategic business insights.",
     image: churnLogo,
     category: "Data Analysis",
-    technologies: ["React", "Python", "PowerBI"],
-    liveLink: "#",
-    githubLink: "#"
+    technologies: ["MYSQL", "MS Excel", "PowerBI", "Python", "NumPy", "Pandas", "Matplotlib", "Machine Learning", "Scikit-learn"],
+    liveLink: "https://github.com/Aditya-KIT/churn-analysis",
+    githubLink: "https://github.com/Aditya-KIT/churn-analysis"
   },
   {
     id: 6,
     title: "AI Chatbot",
     description: "Developed a custom AI-powered chatbot designed to function as an intelligent agent, capable of generating accurate and context-aware responses based on user queries. The chatbot was enhanced using prompt engineering and fine-tuning techniques to improve response quality, adaptability, and overall user interaction experience.",
-    image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: dizi_botLogo,
     category: "AI Projects",
-    technologies: ["React", "Langchain", "OpenAI"],
-    liveLink: "#",
-    githubLink: "#"
+    technologies: ["Chatbase", "Prompt Engineering", "Fine-tuning"],
+    liveLink: "https://www.chatbase.co/iRjnb4i6auIbNWXbG4UwF/help",
+    githubLink: "https://www.chatbase.co/iRjnb4i6auIbNWXbG4UwF/help"
+  },
+  {
+    id: 7,
+    title: "Interactive Data Analysis Report",
+    description: "Developed comprehensive reports using Python libraries like NumPy, Pandas, Matplotlib, and Seaborn, performing Exploratory Data Analysis (EDA) and leveraging SQL for efficient data cleaning.",
+    image: data_reportLogo,
+    category: "Data Analysis",
+    technologies: ["Python", "NumPy", "Pandas", "Matplotlib", "Seaborn", "MS Excel", "MYSQL"],
+    liveLink: "https://drive.google.com/drive/folders/1e_xb8Ge6t5f9e0nxhKM2mQHIDQCtqBx9?usp=sharing",
+    githubLink: "https://github.com/Aditya-KIT/Brazil-Company-Data-Analysis"
   }
 ];
 
@@ -211,22 +233,40 @@ export const ResumesData = [
   {
     id: 1,
     title: "Software Engineer Resume",
-    description: "Detailed resume highlighting software engineering experience, core competencies, and notable projects.",
-    image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    downloadLink: "#"
+    description: `I am writing to express my strong interest in the Software Engineer role. With a solid foundation in full-stack development, data analysis, and AI-driven technologies, I am eager to contribute to innovative and scalable software solutions.
+
+My technical expertise spans across frontend development (HTML, CSS, React JS, JavaScript), backend development (Java, Spring Boot, PHP, Node.js, REST APIs), and database management (SQL). I also bring hands-on experience in data analysis and business intelligence, leveraging tools such as Power BI, MS Excel, Pandas, and NumPy to derive actionable insights through ETL processes and interactive dashboards.
+
+In the domain of Artificial Intelligence and Machine Learning, I have worked with technologies like LangChain, RAG, FAISS, Pinecone, TensorFlow, and PyTorch, building intelligent applications such as an AI-powered PDF reader. Additionally, I am skilled in DevOps and Cloud Computing, with experience in Docker, Kubernetes, Jenkins, and cloud platforms including AWS, Azure, and GCP.
+
+I am passionate about building efficient, data-driven, and user-centric applications, and I am confident that my diverse technical skill set and problem-solving mindset make me a strong candidate for this role.`,
+    image: softwareLogo,
+    downloadLink: softwareResumeFile
   },
   {
     id: 2,
     title: "Data Scientist Resume",
-    description: "Comprehensive resume focusing on data science, analytics, machine learning models, and data-driven insights.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    downloadLink: "#"
+    description: `I am writing to express my strong interest in the Data Scientist role. With a solid foundation in full-stack development, data analysis, and AI-driven technologies, I am eager to contribute to innovative and scalable software solutions.
+
+My technical expertise spans across frontend development (HTML, CSS, React JS, JavaScript), backend development (Java, Spring Boot, PHP, Node.js, REST APIs), and database management (SQL). I also bring hands-on experience in data analysis and business intelligence, leveraging tools such as Power BI, MS Excel, Pandas, and NumPy to derive actionable insights through ETL processes and interactive dashboards.
+
+In the domain of Artificial Intelligence and Machine Learning, I have worked with technologies like LangChain, RAG, FAISS, Pinecone, TensorFlow, and PyTorch, building intelligent applications such as an AI-powered PDF reader. Additionally, I am skilled in DevOps and Cloud Computing, with experience in Docker, Kubernetes, Jenkins, and cloud platforms including AWS, Azure, and GCP.
+
+I am passionate about building efficient, data-driven, and user-centric applications, and I am confident that my diverse technical skill set and problem-solving mindset make me a strong candidate for this role.`,
+    image: data_scienceLogo,
+    downloadLink: dataResumeFile
   },
   {
     id: 3,
     title: "AI Engineer Resume",
-    description: "Specialized resume tailored for Artificial Intelligence, neural networks, natural language processing, and prompt engineering.",
-    image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    downloadLink: "#"
+    description: `I am writing to express my strong interest in the AI Engineer role. With a solid foundation in full-stack development, data analysis, and AI-driven technologies, I am eager to contribute to innovative and scalable software solutions.
+
+My technical expertise spans across frontend development (HTML, CSS, React JS, JavaScript), backend development (Java, Spring Boot, PHP, Node.js, REST APIs), and database management (SQL). I also bring hands-on experience in data analysis and business intelligence, leveraging tools such as Power BI, MS Excel, Pandas, and NumPy to derive actionable insights through ETL processes and interactive dashboards.
+
+In the domain of Artificial Intelligence and Machine Learning, I have worked with technologies like LangChain, RAG, FAISS, Pinecone, TensorFlow, and PyTorch, building intelligent applications such as an AI-powered PDF reader. Additionally, I am skilled in DevOps and Cloud Computing, with experience in Docker, Kubernetes, Jenkins, and cloud platforms including AWS, Azure, and GCP.
+
+I am passionate about building efficient, data-driven, and user-centric applications, and I am confident that my diverse technical skill set and problem-solving mindset make me a strong candidate for this role.`,
+    image: aiLogo,
+    downloadLink: aiResumeFile
   }
 ];

@@ -10,7 +10,7 @@ const Header = ({ theme, toggleTheme }) => {
   const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
   const closeMobileMenu = () => setIsMobileMenuOpen(false);
 
-  const navLinks = ['About', 'Skills', 'Experience', 'Projects', 'Contact'];
+  const navLinks = ['About', 'Skills', 'Experience', 'Projects', 'Resumes', 'Contact'];
 
   return (
     <header className={styles.header}>
@@ -46,16 +46,16 @@ const Header = ({ theme, toggleTheme }) => {
             <a href={PersonalInfo.socials.linktree} target="_blank" rel="noreferrer" aria-label="Linktree"><SiLinktree size={20} /></a>
           </div>
 
-          <button 
-            className={styles.themeToggle} 
+          <button
+            className={styles.themeToggle}
             onClick={toggleTheme}
             aria-label="Toggle Dark Mode"
           >
             {theme === 'light' ? <FiMoon size={20} /> : <FiSun size={20} />}
           </button>
 
-          <button 
-            className={styles.mobileMenuBtn} 
+          <button
+            className={styles.mobileMenuBtn}
             onClick={toggleMobileMenu}
             aria-label="Toggle Mobile Menu"
           >

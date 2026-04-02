@@ -12,7 +12,6 @@ import Education from './components/Education';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import UnderDevelopmentPopup from './components/UnderDevelopmentPopup';
 
 function App() {
   const [theme, setTheme] = useState('light');
@@ -30,7 +29,6 @@ function App() {
 
   return (
     <div className="app">
-      <UnderDevelopmentPopup />
       <Header theme={theme} toggleTheme={toggleTheme} />
       <main>
         <Hero theme={theme} />

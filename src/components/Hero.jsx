@@ -43,6 +43,7 @@ const Hero = ({ theme }) => {
 
           <div className={styles.actionButtons}>
             <a href="#contact" className="btn btn-primary">Get In Touch</a>
+            <a href="#resumes" className="btn btn-primary">Resume</a>
             <a href="#projects" className="btn btn-outline">View Work</a>
           </div>
 
