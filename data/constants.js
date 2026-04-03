@@ -20,8 +20,6 @@ import data_reportLogo from '../assets/work_logo/data_report.png';
 import softwareLogo from '../assets/resume_logo/Software_Engineer.png';
 import softwareResumeFile from '../assets/resume_logo/Aditya Software Engineer Resume.pdf';
 
-
-
 export const PersonalInfo = {
   name: "Aditya Gupta",
   role: "Software Engineer",
@@ -38,18 +36,18 @@ export const PersonalInfo = {
 };
 
 export const Skills = [
-  { 
-    category: "Languages", 
+  {
+    category: "Languages",
     items: [
       { name: "C", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" },
       { name: "Java", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
       { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
       { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
       { name: "MySQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" }
-    ] 
+    ]
   },
-  { 
-    category: "Technologies", 
+  {
+    category: "Technologies",
     items: [
       { name: "HTML", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
       { name: "CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
@@ -63,10 +61,10 @@ export const Skills = [
       { name: "Cloud Computing", icon: "https://img.icons8.com/color/48/cloud.png" },
       { name: "SpringBoot", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" },
       { name: "Node JS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" }
-    ] 
+    ]
   },
-  { 
-    category: "Tools", 
+  {
+    category: "Tools",
     items: [
       { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
       { name: "GitHub", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
@@ -81,20 +79,20 @@ export const Skills = [
       { name: "Docker", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
       { name: "Wordpress", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" },
       { name: "Kubernetes", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" },
-      { name: "Streamlit", icon: streamlitLogo},
+      { name: "Streamlit", icon: streamlitLogo },
       { name: "Postman", icon: postmanLogo },
-      { name: "Netlify", icon: netlifyLogo},
+      { name: "Netlify", icon: netlifyLogo },
       { name: "Figma", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" }
-    ] 
+    ]
   },
-  { 
-    category: "Other Skills", 
+  {
+    category: "Other Skills",
     items: [
       { name: "Effective Communication", icon: "https://img.icons8.com/color/48/communication.png" },
       { name: "Analytical Skill", icon: "https://img.icons8.com/color/48/analytics.png" },
       { name: "Quick Learning", icon: "https://img.icons8.com/color/48/learning.png" },
       { name: "Time Management", icon: "https://img.icons8.com/color/48/time-management.png" }
-    ] 
+    ]
   }
 ];
 
@@ -229,13 +227,7 @@ export const ResumesData = [
   {
     id: 1,
     title: "Software Engineer Resume",
-    description: `I am writing to express my strong interest in the Software Engineer role. With a solid foundation in full-stack development, data analysis, and AI-driven technologies, I am eager to contribute to innovative and scalable software solutions.
-
-My technical expertise spans across frontend development (HTML, CSS, React JS, JavaScript), backend development (Java, Spring Boot, PHP, Node.js, REST APIs), and database management (SQL). I also bring hands-on experience in data analysis and business intelligence, leveraging tools such as Power BI, MS Excel, Pandas, and NumPy to derive actionable insights through ETL processes and interactive dashboards.
-
-In the domain of Artificial Intelligence and Machine Learning, I have worked with technologies like LangChain, RAG, FAISS, Pinecone, TensorFlow, and PyTorch, building intelligent applications such as an AI-powered PDF reader. Additionally, I am skilled in DevOps and Cloud Computing, with experience in Docker, Kubernetes, Jenkins, and cloud platforms including AWS, Azure, and GCP.
-
-I am passionate about building efficient, data-driven, and user-centric applications, and I am confident that my diverse technical skill set and problem-solving mindset make me a strong candidate for this role.`,
+    description: `I am writing to express my strong interest in the Software Engineer role. With a solid foundation in full-stack development, data analysis, and AI-driven technologies, I am eager to contribute to innovative and scalable software solutions.\n\nMy technical expertise spans across frontend development (HTML, CSS, React JS, JavaScript), backend development (Java, Spring Boot, PHP, Node.js, REST APIs), and database management (SQL). I also bring hands-on experience in data analysis and business intelligence, leveraging tools such as Power BI, MS Excel, Pandas, and NumPy to derive actionable insights through ETL processes and interactive dashboards.\n\nIn the domain of Artificial Intelligence and Machine Learning, I have worked with technologies like LangChain, RAG, FAISS, Pinecone, TensorFlow, and PyTorch, building intelligent applications such as an AI-powered PDF reader. Additionally, I am skilled in DevOps and Cloud Computing, with experience in Docker, Kubernetes, Jenkins, and cloud platforms including AWS, Azure, and GCP.\n\nI am passionate about building efficient, data-driven, and user-centric applications, and I am confident that my diverse technical skill set and problem-solving mindset make me a strong candidate for this role.`,
     image: softwareLogo,
     downloadLink: softwareResumeFile
   }
