@@ -1,0 +1,125 @@
+.heroContent {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 0;
+}
+
+@media (min-width: 992px) {
+  .heroContent {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.textContent {
+  flex: 1;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .textContent {
+    text-align: left;
+    max-width: 600px;
+  }
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 4rem;
+  }
+}
+
+.highlight {
+  color: var(--primary-color);
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.bio {
+  font-size: 1.125rem;
+  color: var(--text-muted);
+  margin-bottom: 2.5rem;
+  line-height: 1.8;
+}
+
+.actionButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+@media (min-width: 992px) {
+  .actionButtons {
+    justify-content: flex-start;
+  }
+}
+
+.socials {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .socials {
+    justify-content: flex-start;
+  }
+}
+
+.socials a {
+  color: var(--text-muted);
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.socials a:hover {
+  color: var(--primary-color);
+  transform: translateY(-2px);
+}
+
+.imageContent {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageWrapper {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  padding: 0.5rem;
+  background: linear-gradient(45deg, var(--primary-color), var(--primary-hover));
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+@media (min-width: 768px) {
+  .imageWrapper {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+.profileImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--bg-color);
+}
