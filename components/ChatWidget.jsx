@@ -26,7 +26,7 @@ const API_URL =
 
 const WELCOME_MESSAGE = {
   role: "assistant",
-  content: `Hi! I'm [MY NAME]'s AI assistant. Ask me anything about their skills, experience, or projects!`,
+  content: `Hi! I'm Jam AI assistant. Ask me anything about Aditya Gupta his skills, experience, or projects!`,
 };
 
 // ── Colour tokens (works on both light and dark backgrounds) ──────────────────
